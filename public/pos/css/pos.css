@@ -1,0 +1,123 @@
+*, body {
+    padding: 0;
+    margin: 0;
+}
+
+.pos-holder {
+    position: absolute;
+    width: 100%;
+    display:block;
+    top: 5rem;
+    z-index: 9;
+}
+
+#open {
+    color: #410156;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.pos-logo {
+    background-color: rgb(103, 113, 122);
+    height: 168px;
+    width: 90%;
+    position: absolute;
+    top: -7%;
+    border-radius: 44px;
+    z-index: -1;
+    left: 5%;
+}
+
+.content-container {
+    position: relative;
+}
+
+.contetnt-holder {
+    background-color: #fff;
+    height: inherit;
+    position: relative;
+    top: -16px;
+}
+
+.layer-1 {
+    background-color: rgb(254, 93, 85);
+    width: 73%;
+    margin: auto;
+    position: relative;
+    border-radius: 65px;
+    padding: 9px 0 26px 0;
+}
+
+.layer-2 {
+    background-color: rgb(68, 67, 72);
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 9px;
+    border-radius: 37px;
+}
+
+.main-screen {
+    width: 90%;
+    margin: auto;
+}
+
+.option img {
+    max-width: 60%;
+}
+
+.logo {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/screen.png) center center;
+    background-size: cover;
+    position: absolute;
+    height: 95%;
+    z-index: 99;
+    top: 21px;
+}
+
+
+.logo img {
+    cursor: pointer;
+    position: relative;
+    top: 35px;
+}
+
+#close {
+    color: #410156;
+    font-size: 40px;
+    text-align: right;
+    display: block;
+    position: absolute;
+    top: -4rem;
+    right: -48px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+#close:hover {
+    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+}
+
+.amwal-logo img {
+    max-width: 56%;
+}
+
+.Browse img {
+    max-width: 50%;
+}
+
+.Browse a {
+    display: inline-block;
+}
